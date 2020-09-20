@@ -1,7 +1,7 @@
 
-def wave_filter(arr, lower=10):
+def wave_filter(arr, lower=10, upper=20):
     lower = lower
-    upper = 20
+    upper = upper
 
     for i in range(len(arr)):
         if arr[i] < lower:

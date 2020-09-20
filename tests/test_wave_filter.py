@@ -16,3 +16,7 @@ def test_upper_limit():
 
 def test_user_assign_lower_limit():
     assert wave_filter([11, 21], 15) == [15, 20]
+
+
+def test_user_assign_upper_limit():
+    assert wave_filter([11, 21], 15, 25) == [15, 21]
