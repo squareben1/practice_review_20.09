@@ -8,3 +8,7 @@ def test_return_arr():
 
 def test_lower_limit():
     assert wave_filter([9, 10]) == [10, 10]
+
+
+def test_upper_limit():
+    assert wave_filter([10, 21]) == [10, 20]
