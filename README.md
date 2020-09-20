@@ -1,4 +1,4 @@
-# Practice Review 
+# Practice Review Kata
 
 Quick, easy practice Kata in Python to prep for tomorrow's observed review. 
 
